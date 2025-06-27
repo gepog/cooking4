@@ -208,7 +208,7 @@ export const contentRows: ContentRow[] = [
     movies: [
       {
         id: 'italy-1',
-        title: 'Pasta Perfection',
+        title: 'Pasta e Fagioli',
         description: 'Discover the art of traditional Italian pasta making with authentic recipes from Nonna\'s kitchen.',
         genre: ['Food', 'Culture', 'Cooking'],
         year: 2024,
@@ -222,7 +222,7 @@ export const contentRows: ContentRow[] = [
       },
       {
         id: 'italy-2',
-        title: 'Tortellini Tales',
+        title: 'Tortellini in Bordo',
         description: 'Journey through Emilia-Romagna to uncover the secrets of perfect tortellini in rich broth.',
         genre: ['Food', 'Travel', 'Culture'],
         year: 2024,
@@ -236,7 +236,7 @@ export const contentRows: ContentRow[] = [
       },
       {
         id: 'italy-3',
-        title: 'Lasagna Legends',
+        title: 'Lasagna',
         description: 'Explore the rich history and regional variations of Italy\'s most beloved layered pasta dish.',
         genre: ['Food', 'History', 'Culture'],
         year: 2024,
@@ -250,7 +250,7 @@ export const contentRows: ContentRow[] = [
       },
       {
         id: 'italy-4',
-        title: 'Bundt Cake Chronicles',
+        title: 'Osso Buco',
         description: 'Master the art of Italian-style bundt cakes with traditional flavors and modern techniques.',
         genre: ['Food', 'Baking', 'Culture'],
         year: 2024,
