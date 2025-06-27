@@ -210,7 +210,92 @@ export const contentRows: ContentRow[] = [
   {
     id: 'japan',
     title: 'Japan',
-    movies: movies.slice(4, 10)
+    movies: [
+      {
+        id: 'japan-1',
+        title: 'Kawaii Ramen Adventures',
+        description: 'Discover the heartwarming world of Japanese ramen culture through adorable animated stories.',
+        genre: ['Food', 'Culture', 'Animation'],
+        year: 2024,
+        rating: 'PG',
+        duration: '35 min',
+        thumbnail: '/src/assets/s2.png',
+        backdrop: '/src/assets/s2.png',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 1890
+      },
+      {
+        id: 'japan-2',
+        title: 'Cute Bento Box Stories',
+        description: 'Explore the art of Japanese bento making with charming characters and delightful recipes.',
+        genre: ['Food', 'Culture', 'Educational'],
+        year: 2024,
+        rating: 'PG',
+        duration: '42 min',
+        thumbnail: '/src/assets/s3.png',
+        backdrop: '/src/assets/s3.png',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 2150
+      },
+      {
+        id: 'japan-3',
+        title: 'Tonkotsu Tales',
+        description: 'Journey through Japan\'s rich ramen heritage with lovable food characters.',
+        genre: ['Food', 'Adventure', 'Culture'],
+        year: 2024,
+        rating: 'PG',
+        duration: '38 min',
+        thumbnail: '/src/assets/s4.png',
+        backdrop: '/src/assets/s4.png',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 1750
+      },
+      {
+        id: 'japan-4',
+        title: 'Seafood Udon Chronicles',
+        description: 'Dive into the ocean of flavors with cute sea creatures in traditional Japanese noodle soups.',
+        genre: ['Food', 'Ocean', 'Culture'],
+        year: 2024,
+        rating: 'PG',
+        duration: '40 min',
+        thumbnail: '/src/assets/s5.png',
+        backdrop: '/src/assets/s5.png',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 1620
+      },
+      {
+        id: 'japan-5',
+        title: 'Teriyaki Dreams',
+        description: 'Follow adorable grilled characters as they share the secrets of perfect Japanese glazes.',
+        genre: ['Food', 'Cooking', 'Culture'],
+        year: 2024,
+        rating: 'PG',
+        duration: '33 min',
+        thumbnail: '/src/assets/s6.png',
+        backdrop: '/src/assets/s6.png',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 1980
+      },
+      {
+        id: 'japan-6',
+        title: 'Sushi Master Class',
+        description: 'Learn the ancient art of sushi making with friendly fish characters guiding your journey.',
+        genre: ['Food', 'Educational', 'Culture'],
+        year: 2024,
+        rating: 'PG',
+        duration: '45 min',
+        thumbnail: '/src/assets/s2.png',
+        backdrop: '/src/assets/s2.png',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 2300
+      }
+    ]
   },
   {
     id: 'mexico',
