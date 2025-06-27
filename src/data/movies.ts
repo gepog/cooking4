@@ -379,8 +379,8 @@ export const contentRows: ContentRow[] = [
         year: 2024,
         rating: 'PG',
         duration: '45 min',
-        thumbnail: '/src/assets/s2.png',
-        backdrop: '/src/assets/s2.png',
+        thumbnail: '/src/assets/q9.png',
+        backdrop: '/src/assets/q9.png',
         videoUrl: '/src/assets/sample-video.mp4',
         trailerUrl: '/src/assets/sample-trailer.mp4',
         likes: 2300
