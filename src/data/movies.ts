@@ -205,7 +205,92 @@ export const contentRows: ContentRow[] = [
   {
     id: 'italy',
     title: 'Italy',
-    movies: movies.slice(0, 6)
+    movies: [
+      {
+        id: 'italy-1',
+        title: 'Pasta Perfection',
+        description: 'Discover the art of traditional Italian pasta making with authentic recipes from Nonna\'s kitchen.',
+        genre: ['Food', 'Culture', 'Cooking'],
+        year: 2024,
+        rating: 'PG',
+        duration: '42 min',
+        thumbnail: '/src/assets/imgI2.jpg',
+        backdrop: '/src/assets/imgI2.jpg',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 2250
+      },
+      {
+        id: 'italy-2',
+        title: 'Tortellini Tales',
+        description: 'Journey through Emilia-Romagna to uncover the secrets of perfect tortellini in rich broth.',
+        genre: ['Food', 'Travel', 'Culture'],
+        year: 2024,
+        rating: 'PG',
+        duration: '38 min',
+        thumbnail: '/src/assets/imgI3.jpg',
+        backdrop: '/src/assets/imgI3.jpg',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 1890
+      },
+      {
+        id: 'italy-3',
+        title: 'Lasagna Legends',
+        description: 'Explore the rich history and regional variations of Italy\'s most beloved layered pasta dish.',
+        genre: ['Food', 'History', 'Culture'],
+        year: 2024,
+        rating: 'PG',
+        duration: '45 min',
+        thumbnail: '/src/assets/imgI4.jpg',
+        backdrop: '/src/assets/imgI4.jpg',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 2100
+      },
+      {
+        id: 'italy-4',
+        title: 'Bundt Cake Chronicles',
+        description: 'Master the art of Italian-style bundt cakes with traditional flavors and modern techniques.',
+        genre: ['Food', 'Baking', 'Culture'],
+        year: 2024,
+        rating: 'PG',
+        duration: '35 min',
+        thumbnail: '/src/assets/imgI1.jpg',
+        backdrop: '/src/assets/imgI1.jpg',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 1750
+      },
+      {
+        id: 'italy-5',
+        title: 'Sicilian Specialties',
+        description: 'Dive into the unique flavors of Sicily with traditional recipes passed down through generations.',
+        genre: ['Food', 'Regional', 'Culture'],
+        year: 2024,
+        rating: 'PG',
+        duration: '40 min',
+        thumbnail: '/src/assets/imgI2.jpg',
+        backdrop: '/src/assets/imgI2.jpg',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 1980
+      },
+      {
+        id: 'italy-6',
+        title: 'Roman Cuisine Classics',
+        description: 'Experience the timeless flavors of Rome with authentic dishes from the Eternal City.',
+        genre: ['Food', 'History', 'Culture'],
+        year: 2024,
+        rating: 'PG',
+        duration: '43 min',
+        thumbnail: '/src/assets/imgI3.jpg',
+        backdrop: '/src/assets/imgI3.jpg',
+        videoUrl: '/src/assets/sample-video.mp4',
+        trailerUrl: '/src/assets/sample-trailer.mp4',
+        likes: 2180
+      }
+    ]
   },
   {
     id: 'japan',
