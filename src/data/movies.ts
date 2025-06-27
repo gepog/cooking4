@@ -183,6 +183,11 @@ export const featuredMovie: Movie = {
 
 export const contentRows: ContentRow[] = [
   {
+    id: 'most-liked',
+    title: 'Most Liked',
+    movies: [] // This will be populated dynamically based on likes
+  },
+  {
     id: 'trending',
     title: 'Trending Now',
     movies: movies.slice(0, 6)
@@ -391,11 +396,6 @@ export const contentRows: ContentRow[] = [
     id: 'spain',
     title: 'Spain',
     movies: movies.slice(1, 7)
-  },
-  {
-    id: 'most-liked',
-    title: 'Most Liked',
-    movies: [] // This will be populated dynamically based on likes
   }
 ];
 
